@@ -5,6 +5,25 @@
       <entry key="MainActivity">
         <State />
       </entry>
+      <entry key="MainActivity (1)">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\promact.DESKTOP-6D72UT9\.android\avd\Pixel_7_Pro.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-03-22T09:29:01.500925Z" />
+        </State>
+      </entry>
+      <entry key="MapActivity">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
