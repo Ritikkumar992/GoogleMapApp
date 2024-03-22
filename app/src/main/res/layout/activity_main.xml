@@ -12,14 +12,21 @@
 
     <Button
         android:id="@+id/btnId1"
-        android:layout_width="200dp"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Click to view Map 1" />
+        android:text="Click to view current location" />
     <Button
         android:id="@+id/btnId2"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="Click to view Map 2"
+        android:text="Click to search locatioin"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/btnId3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Click to Route"
         android:layout_marginTop="20dp"
         />
 

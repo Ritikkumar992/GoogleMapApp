@@ -44,4 +44,7 @@ dependencies {
     implementation ("com.google.android.gms:play-services-maps:18.2.0")
     // location
     implementation("com.google.android.gms:play-services-location:21.2.0")
+
+    // directino api
+    implementation ("com.github.dangiashish:Google-Direction-Api:1.6")
 }

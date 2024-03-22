@@ -18,7 +18,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MainActivity extends AppCompatActivity{
 
-    Button btn1, btn2;
+    Button btn1, btn2, btn3;
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity{
 
             btn1 = findViewById(R.id.btnId1);
             btn2 = findViewById(R.id.btnId2);
+            btn3 = findViewById(R.id.btnId3);
             btn1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
@@ -40,9 +41,12 @@ public class MainActivity extends AppCompatActivity{
                     startActivity(intent);
                 }
             });
-
-
+            btn3.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, MapRoute.class);
+                    startActivity(intent);
+                }
+            });
         }
-
-
     }
